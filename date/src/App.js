@@ -1,13 +1,15 @@
 import "./App.css";
 
+import DateFnsExample from "./components/DateFns/DateFnsExample";
 import MomentExample from "./components/Moment/MomentExample";
 import DayjsExample from "./components/Dayjs/DayjsExample";
 
 function App() {
   return (
     <div className="App">
-      <MomentExample />
+      <DateFnsExample />
       <DayjsExample />
+      <MomentExample />
     </div>
   );
 }
